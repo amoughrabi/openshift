@@ -1,5 +1,5 @@
 # Apache + PHP 8.3 on UBI9 (OpenShift-friendly)
-FROM registry.access.redhat.com/ubi9/php-83:latest
+FROM registry.redhat.io/ubi10/php-83:latest
 
 USER 0
 

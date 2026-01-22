@@ -44,7 +44,7 @@ COPY . /opt/app-root/src
 # Make it work with OpenShift random UID (group 0)
 RUN chgrp -R 0 /opt/app-root/src && chmod -R g=u /opt/app-root/src
 
-ENV DOCUMENTROOT=public
+ENV DOCUMENTROOT=/public
 
 USER 1001
 EXPOSE 8080

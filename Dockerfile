@@ -46,4 +46,4 @@ RUN chgrp -R 0 /opt/app-root/src && chmod -R g=u /opt/app-root/src
 
 USER 1001
 EXPOSE 8080
-
+CMD ["/usr/libexec/s2i/run"]
